@@ -1,0 +1,14 @@
+{
+    "domain": "neosmartblinds",
+    "name": "Neo BLE Blinds",
+    "config_flow": true,
+    "requirements": ["bleak"],
+    "dependencies": ["bluetooth_adapters"],
+    "iot_class": "local_push",
+    "version": "1.0.0",
+    "logger": ["Neo-Blinds"],
+    "bluetooth": [{"local_name": "NEO*"}],
+    "documentation": "https://github.com/hackmyl1fe/NeoBLEBlinds",
+    "issue_tracker": "https://github.com/hackmyl1fe/NeoBLEBlinds/issues",
+    "codeowners": "@hackmyl1fe"
+}
